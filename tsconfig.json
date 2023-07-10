@@ -1,7 +1,6 @@
 {
   "include": ["src"],
   "compilerOptions": {
-    "outDir": "dist",
     "removeComments": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
