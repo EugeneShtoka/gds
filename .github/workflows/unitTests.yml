@@ -1,0 +1,22 @@
+name: unit-tests
+
+on: [pull_request]
+
+jobs:
+  tests:
+    timeout-minutes: 20
+    runs-on: 8-cores
+    steps:
+      - uses: actions/checkout@v3
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: yarn install
+        run: yarn install --frozen-lockfile
+      - name: prettier check
+        run: yarn prettier --check "src/**/*.ts"
+      - name: build
+        run: yarn build
+      - name: Test & publish code coverage
+        run: yarn test
