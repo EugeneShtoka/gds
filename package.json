@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register src/index.ts",
+    "build": "yarn tsc && yarn tsc --build tsconfig.cdk.json",
     "test": "FORCE_COLOR=true yarn tsc && yarn test:unit --verbose --colors --forceExit",
     "test:unit": "node ./node_modules/.bin/jest --coverage"
   },
