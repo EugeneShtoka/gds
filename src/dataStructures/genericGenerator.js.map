@@ -1,1 +1,0 @@
-{"version":3,"file":"genericGenerator.js","sourceRoot":"","sources":["genericGenerator.ts"],"names":[],"mappings":";;;AAAA,QAAe,CAAC,CAAC,gBAAgB,CAC7B,OAAsB,EACtB,OAAmC,EACnC,MAA4B;IAE5B,OAAO,CAAC,CAAC,OAAO,IAAI,CAAC,MAAM,CAAC,OAAO,CAAC,EAAE;QAClC,MAAM,OAAO,CAAC;QACd,OAAO,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC;KAC9B;AACL,CAAC;AATD,4CASC"}
