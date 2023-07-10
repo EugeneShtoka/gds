@@ -127,5 +127,9 @@ describe.each([() => new LinkedList<number>(), () => new DoubleLinkedList<number
             collection.clear();
             verifyNumberContentAndCount(collection, []);
         });
+
+        test(`${className}: failing test`, () => {
+            expect(false).toBeTruthy();
+        });
     },
 );
